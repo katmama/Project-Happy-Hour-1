@@ -1,68 +1,54 @@
 # Project-Happy-Hour-1
 
+While alcohol consumption is recognized worldwide, our group wanted to find if there were any correlations between how happy
+    
+a country is and the amount of alcohol consumed, type of alcohol consumed, level of income and possibly temperature.  
+    
+In the Happiness and Alcohol Consumption dataset, 112 countries participated in a survey, where they were asked to provide a rating 
 
-    While alcohol consumption is recognized worldwide, our group wanted to find the correlation 
+of how happy they were based on a scale from 0 to 10 with 10 being the happiest.
 
-of alcohol consumption in comparison to happiness.  Based on 112 countries that participated 
 
-in a survey we were able to find the top five happiest countries and the bottom 5 
+We quickly identified the top five happiest countries and the bottom 5 least happiest countries as:
 
-least happiest countries from a happiness scale that asked participants to provide a rating. 
+TOP 5: Denmark, Switzerland, Iceland, Norway, and Finland with the scores ranging from 7.5 to 7.4, respectively. 
 
-The happiness score is based on a scale from 0 to 10 with 10 being the happiest. In our 
+There scores were so close, we can conclude they were equally happy. 
 
-analysis our team was able to discover that Denmark, Switzerland, Iceland, Norway and 
+BOTTOM 5:  Madagascar, Tanzania, Liberia, Benin and Togo with the scores ranging from 3.63 to 3.3, respectivly.
 
-Finland was in the top 5 happiest countries. With the scores ranging from 7.5 to 7.4, there 
+Again, the scores were so close we can conclude the were equally least happy compared to each other. 
 
-were close approximations of scores that showed us  how close in ranking each country was 
+Within the top 5 countries:  While beer was the most consumed alcohol as a group, wine was the highest consumed alcohol with top two
 
-towards each other. 
+happiest countries, Denmark and Switzerland.
 
-	Simultaneously, we discovered that the bottom 5 least happiest countries were 
+Within the bottom 5 countries:  Beer again was the most consumed alcohol as a group, as well as the alcohol of choice for the bottom 2 countries, 
 
-Madagascar, Tanzania, Liberia, Benin and Togo. The scores from these countries were also 
+Tonga and Benin.  The overall volume of alcohol consumed per Capita was also much lower than the top 5, although Liberia was an outlier with above 140 liters per 
 
-close in range from each other ranging from 3.6 to 3.3. Some similarities between the top and 
+Capita of Spirits. 
 
-bottom 5 showed that the top 5 countries are all within a high income level based on an 
+With regards to income, we discovered there is a high correlation between GDP per Capita and Happiness Score with a correlation of .72.  In other words, 
 
-income group while the bottom 5 were within the low income level. 
+wealthier countries were happier and drinking more alcohol.  But was there a correlation between the types of alcohol and their income level?
 
-    Once we discovered which countries were within the top and bottom 5 categories we 
+We found that to answer to be no.  While wine, had the highest correlation of .58 with GDP per Capita, it's moderate in scale with the beer following at .37
 
-wanted to know which type of alcohol was consumed the most and least, given the types to 
+and spirits at .05.
+    
+We added a heat map to see if the happier countries temperatures were warmer or colder than those least happy.  We can see that the happier countries were in colder 
 
-be beer, wine and spirit. The data showed that Finland had the highest consumption for beer 
+climates than those that were at the bottom of the scale.  
 
-followed by spirit and Switzerland has the highest rate for wine.  As for the bottom 5, Tanzania 
+Our final analysis, is that income is the predominant factor in determining how happy the country was.  The wealthier countries also had higher disposable income to 
 
-and Togo was equivalent with the highest consumption rate of beer. Liberia consumed the 
+spend on alcohol leading to higher consumption per capita than those countries less happy.
 
-most spirits while Togo took the lead in wine. Since Finland took the lead in beer and spirit, 
+The next step could be to pull data on number of bars within these countries to see if alcohol consumption is driven by social factors and whether the number of these 
 
-beer was the least popular choice in Norway while Iceland consumed the least amount of 
-
-spirits and wine. As for the bottom 5, Liberia considered beer to be an unpopular choice. The 
-
-least amount of spirits consumed was by Togo and wine being disliked by Tanzania. On 
-
-average the alcohol that was most consumed throughout the entire data showed that beer 
-
-was the most popular type with spirit and wine to follow. Western Europe and Central/Eastern 
-
-Europe landed the highest Happiness score out of all other regions / Central and Eastern 
-
-Europe has the highest consumption level.
-
-    While the majority of the countries that participated in the survey have scores ranging 
+type establishments are highly correlated.
  
- from 3 to 6, we can see a positive correlation between the comparison while the correlation 
  
- came out to be 0.72. Besides this comparison, we also wanted to know if there was a relationship 
  
- between the gdp and participants' choice of alcohol. Our study found that spirits had a low correlation 
  
- with a score of 0.05 followed by beer with 0.37 and wine with 0.58. While beer appeared to be the most 
- 
- popular among the categories, wine persisted with a positive and highest correlation between the three.
