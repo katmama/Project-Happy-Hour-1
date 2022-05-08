@@ -58,3 +58,15 @@ ___
   * Income based on choice of alcohol?
     * Graph: Pending
 
+#### Converting to Slides
+(base) Benjamins-iMac-5294:Project-Happy-Hour-1 bsdutton$ jupyter nbconvert *.ipynb --to slides --post serve --SlidesExporter.reveal_theme=serif --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none
+[NbConvertApp] Converting notebook Final Project 1.ipynb to slides
+[NbConvertApp] Writing 4697610 bytes to Final Project 1.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+Serving your slides at http://127.0.0.1:8000/Final Project 1.slides.html
+Use Control-C to stop this server
+        * Output = Final Project 1.slides.html
+
+#### Converting to HTML
+(base) Benjamins-iMac-5294:Project-Happy-Hour-1 bsdutton$ jupyter nbconvert *.ipynb --to html
+        * Output = Final Project 1.html
